@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  functional_textfield:
+    dependency: "direct main"
+    description:
+      name: functional_textfield
+      sha256: "393630501901594ab1782290343538e930efdc19fa29154882823939a935c708"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.2"
   leak_tracker:
     dependency: transitive
     description:
