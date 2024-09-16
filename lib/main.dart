@@ -3,15 +3,16 @@ import 'package:flutter_tutorials/basic_layout.dart';
 import './registration_form.dart';
 import './login.dart';
 import './Align_widget.dart';
+import './layout_two.dart';
 void main() {runApp(const MyApp());}
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: "/login",
+      initialRoute: "/",
       routes: {
-        "/": (context)=>AlignWidget(),
+        "/": (context)=>LayoutTwo(),
         "/login" : (context)=>Login(),
         "/Registration" : (context)=>Registration(),
         "/home" : (context)=> const TaskOne()
